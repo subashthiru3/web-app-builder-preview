@@ -9,16 +9,26 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.1.6",
+    "axios": "^1.13.4",
+    "next": "15.5.7",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.7",
+    "@mui/material": "^7.3.7",
+    "@mui/x-data-grid": "^8.27.0",
+    "@mui/x-data-grid-premium": "^8.27.0",
+    "@mui/x-data-grid-pro": "^8.27.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "pdfjs-dist": "^5.4.624",
+    "react-web-white-label": "^2.0.12",
     "typescript": "^5"
   }
 }
