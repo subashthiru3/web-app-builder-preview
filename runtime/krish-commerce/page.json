@@ -6,24 +6,7 @@
       "name": "dashboard",
       "components": [
         {
-          "id": "k8cksopbi",
-          "type": "mwlButton",
-          "props": {
-            "type": "normal",
-            "text": "dashboard",
-            "variant": "contained",
-            "color": "primary",
-            "size": "medium",
-            "disabled": false,
-            "borderRadius": 4,
-            "className": "mwl-button",
-            "textTransform": "none",
-            "loading": false,
-            "loadingPosition": "center"
-          }
-        },
-        {
-          "id": "mcplx57aw",
+          "id": "hl3uw7kc0",
           "type": "mwlGrid",
           "props": {
             "columnData": [
@@ -100,19 +83,13 @@
               "quickFilter": false
             }
           }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "contact us",
-      "components": [
+        },
         {
-          "id": "7v8pws3m2",
+          "id": "8lfkf1hq7",
           "type": "mwlButton",
           "props": {
             "type": "normal",
-            "text": "contact us",
+            "text": "Dashboard Page",
             "variant": "contained",
             "color": "primary",
             "size": "medium",
