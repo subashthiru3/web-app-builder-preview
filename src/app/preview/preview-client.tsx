@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { ComponentRenderer } from "@/components/ComponentRenderer/ComponentRenderer";
 import { CanvasComponent } from "@/lib/types";
 import { fetchJSONData } from "@/api";
+import Loader from "@/components/Loader/Loader";
 
 export default function PreviewClient() {
   const searchParams = useSearchParams();
@@ -32,15 +33,14 @@ export default function PreviewClient() {
     getAppJSONData();
   }, []);
 
-  // if (!project) return <div>No project specified</div>;
-  if (loading) return <div>Loading preview...</div>;
+  if (loading) return <Loader />;
 
   return (
-    <div style={{ padding: 32 }}>
-      {components.length === 0 ? (
-        <div>No components to preview</div>
-      ) : (
+    <div style={{ padding: "1rem" }}>
+      {components.length ? (
         components.map((c) => <ComponentRenderer key={c.id} component={c} />)
+      ) : (
+        <div>No components to preview</div>
       )}
     </div>
   );
