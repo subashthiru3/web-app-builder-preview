@@ -1,0 +1,130 @@
+{
+  "projectName": "krish-commerce",
+  "pages": [
+    {
+      "id": 1,
+      "name": "dashboard",
+      "components": [
+        {
+          "id": "k8cksopbi",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "dashboard",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        },
+        {
+          "id": "mcplx57aw",
+          "type": "mwlGrid",
+          "props": {
+            "columnData": [
+              {
+                "field": "id",
+                "headerName": "ID"
+              },
+              {
+                "field": "name",
+                "headerName": "Name"
+              },
+              {
+                "field": "email",
+                "headerName": "Email"
+              },
+              {
+                "field": "age",
+                "headerName": "Age",
+                "type": "number"
+              },
+              {
+                "field": "active",
+                "headerName": "Active",
+                "type": "boolean"
+              }
+            ],
+            "rowData": [
+              {
+                "id": 1,
+                "name": "John Doe",
+                "email": "john@example.com",
+                "age": 30,
+                "active": true
+              },
+              {
+                "id": 2,
+                "name": "Jane Smith",
+                "email": "jane@example.com",
+                "age": 26,
+                "active": false
+              },
+              {
+                "id": 3,
+                "name": "Ravi Kumar",
+                "email": "ravi@example.com",
+                "age": 35,
+                "active": true
+              }
+            ],
+            "crudOperationStatus": false,
+            "rowModesData": {},
+            "variant": "community",
+            "showToolbar": true,
+            "showPagination": true,
+            "paginationModel": {
+              "pageSize": 5,
+              "page": 0
+            },
+            "pageSizeOptions": [
+              5,
+              10,
+              20
+            ],
+            "disableColumnFilter": false,
+            "listContent": false,
+            "rowCount": 3,
+            "localeText": {},
+            "commonProps": {},
+            "componentsConfig": {
+              "columnsButton": true,
+              "densitySelector": false,
+              "export": false,
+              "filterButton": true,
+              "quickFilter": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "contact us",
+      "components": [
+        {
+          "id": "7v8pws3m2",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "contact us",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
