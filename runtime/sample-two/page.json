@@ -1,28 +1,4 @@
 {
   "projectName": "sample-two",
-  "pages": [
-    {
-      "id": 1,
-      "name": "dashboard",
-      "components": [
-        {
-          "id": "ydx2l3hty",
-          "type": "mwlButton",
-          "props": {
-            "type": "normal",
-            "text": "MWL Button",
-            "variant": "contained",
-            "color": "primary",
-            "size": "medium",
-            "disabled": false,
-            "borderRadius": 4,
-            "className": "mwl-button",
-            "textTransform": "none",
-            "loading": false,
-            "loadingPosition": "center"
-          }
-        }
-      ]
-    }
-  ]
+  "pages": []
 }
