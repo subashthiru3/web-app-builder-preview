@@ -3,15 +3,15 @@
   "pages": [
     {
       "id": 1,
-      "name": "sample-one",
+      "name": "dashboard",
       "components": [
         {
-          "id": "4wihvvtfq",
+          "id": "ydx2l3hty",
           "type": "mwlButton",
           "props": {
             "type": "normal",
-            "text": "sample-one page",
-            "variant": "text",
+            "text": "MWL Button",
+            "variant": "contained",
             "color": "primary",
             "size": "medium",
             "disabled": false,
