@@ -3,10 +3,112 @@
   "pages": [
     {
       "id": 1,
+      "name": "Home",
+      "components": [
+        {
+          "id": "ceug4x9ib",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "MWL Button",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        },
+        {
+          "id": "bk6z73v5o",
+          "type": "mwlGrid",
+          "props": {
+            "columnData": [
+              {
+                "field": "id",
+                "headerName": "ID"
+              },
+              {
+                "field": "name",
+                "headerName": "Name"
+              },
+              {
+                "field": "email",
+                "headerName": "Email"
+              },
+              {
+                "field": "age",
+                "headerName": "Age",
+                "type": "number"
+              },
+              {
+                "field": "active",
+                "headerName": "Active",
+                "type": "boolean"
+              }
+            ],
+            "rowData": [
+              {
+                "id": 1,
+                "name": "John Doe",
+                "email": "john@example.com",
+                "age": 30,
+                "active": true
+              },
+              {
+                "id": 2,
+                "name": "Jane Smith",
+                "email": "jane@example.com",
+                "age": 26,
+                "active": false
+              },
+              {
+                "id": 3,
+                "name": "Ravi Kumar",
+                "email": "ravi@example.com",
+                "age": 35,
+                "active": true
+              }
+            ],
+            "crudOperationStatus": false,
+            "rowModesData": {},
+            "variant": "community",
+            "showToolbar": true,
+            "showPagination": true,
+            "paginationModel": {
+              "pageSize": 5,
+              "page": 0
+            },
+            "pageSizeOptions": [
+              5,
+              10,
+              20
+            ],
+            "disableColumnFilter": false,
+            "listContent": false,
+            "rowCount": 3,
+            "localeText": {},
+            "commonProps": {},
+            "componentsConfig": {
+              "columnsButton": true,
+              "densitySelector": false,
+              "export": false,
+              "filterButton": true,
+              "quickFilter": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
       "name": "dashboard",
       "components": [
         {
-          "id": "hl3uw7kc0",
+          "id": "jn2n2g9j0",
           "type": "mwlGrid",
           "props": {
             "columnData": [
@@ -85,11 +187,11 @@
           }
         },
         {
-          "id": "8lfkf1hq7",
+          "id": "29axr26nn",
           "type": "mwlButton",
           "props": {
             "type": "normal",
-            "text": "Dashboard Page",
+            "text": "MWL Button",
             "variant": "contained",
             "color": "primary",
             "size": "medium",
