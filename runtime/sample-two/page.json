@@ -1,4 +1,28 @@
 {
   "projectName": "sample-two",
-  "pages": []
+  "pages": [
+    {
+      "id": 1,
+      "name": "about",
+      "components": [
+        {
+          "id": "3cbda9g77",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "About Page",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    }
+  ]
 }
