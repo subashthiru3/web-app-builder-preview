@@ -16,7 +16,7 @@ export default function PreviewClient() {
   const getAppJSONData = async () => {
     setLoading(true);
     try {
-      const res = await fetchJSONData("sample-project");
+      const res = await fetchJSONData(project ?? "");
       if (res.data) {
         setComponents(res.data);
       } else {
@@ -31,7 +31,7 @@ export default function PreviewClient() {
 
   useEffect(() => {
     getAppJSONData();
-  }, []);
+  }, [project]);
 
   if (loading) return <Loader />;
 
