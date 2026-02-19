@@ -1,0 +1,74 @@
+{
+  "projectName": "sample-four",
+  "pages": [
+    {
+      "id": 1,
+      "name": "Dashboard",
+      "components": [
+        {
+          "id": "ktu8csph3",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "Dashboard",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Services",
+      "components": [
+        {
+          "id": "pusa0b9d2",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "Services",
+            "variant": "contained",
+            "color": "info",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "About us",
+      "components": [
+        {
+          "id": "utidj9nw7",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "About us",
+            "variant": "contained",
+            "color": "error",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
