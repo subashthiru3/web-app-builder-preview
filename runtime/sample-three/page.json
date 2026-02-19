@@ -3,14 +3,14 @@
   "pages": [
     {
       "id": 1,
-      "name": "Landing",
+      "name": "Dashboard",
       "components": [
         {
-          "id": "qmuw7kdg9",
+          "id": "ktu8csph3",
           "type": "mwlButton",
           "props": {
             "type": "normal",
-            "text": "Landing page",
+            "text": "Dashboard",
             "variant": "contained",
             "color": "primary",
             "size": "medium",
@@ -26,16 +26,39 @@
     },
     {
       "id": 2,
-      "name": "About",
+      "name": "Services",
       "components": [
         {
-          "id": "58tdaz35l",
+          "id": "pusa0b9d2",
           "type": "mwlButton",
           "props": {
             "type": "normal",
-            "text": "About us page",
+            "text": "Services",
             "variant": "contained",
-            "color": "primary",
+            "color": "info",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "About us",
+      "components": [
+        {
+          "id": "utidj9nw7",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "About us",
+            "variant": "contained",
+            "color": "error",
             "size": "medium",
             "disabled": false,
             "borderRadius": 4,
