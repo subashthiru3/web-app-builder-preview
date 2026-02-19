@@ -16,7 +16,7 @@ export default function PreviewClient() {
   const getAppJSONData = async () => {
     setLoading(true);
     try {
-      const res = await fetchJSONData("krish-commerce");
+      const res = await fetchJSONData(project!);
       if (res.data) {
         const apiData = res.data;
         const flattenedData = apiData.pages.flatMap((page: any) =>
