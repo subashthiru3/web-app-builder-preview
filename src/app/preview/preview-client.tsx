@@ -16,9 +16,17 @@ export default function PreviewClient() {
   const getAppJSONData = async () => {
     setLoading(true);
     try {
-      const res = await fetchJSONData(project ?? "");
+      const res = await fetchJSONData("krish-commerce");
       if (res.data) {
-        setComponents(res.data);
+        const apiData = res.data;
+        const flattenedData = apiData.pages.flatMap((page: any) =>
+          page.components.map((component: any) => ({
+            id: component.id,
+            type: component.type,
+            props: component.props,
+          })),
+        );
+        setComponents(flattenedData);
       } else {
         setComponents([]);
       }
@@ -30,7 +38,7 @@ export default function PreviewClient() {
   };
 
   useEffect(() => {
-    getAppJSONData();
+    if (project) getAppJSONData();
   }, [project]);
 
   if (loading) return <Loader />;
