@@ -1,0 +1,28 @@
+{
+  "projectName": "sample-one",
+  "pages": [
+    {
+      "id": 1,
+      "name": "sample-one",
+      "components": [
+        {
+          "id": "4wihvvtfq",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "sample-one page",
+            "variant": "text",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
