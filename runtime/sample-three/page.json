@@ -1,0 +1,51 @@
+{
+  "projectName": "sample-three",
+  "pages": [
+    {
+      "id": 1,
+      "name": "Landing",
+      "components": [
+        {
+          "id": "qmuw7kdg9",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "Landing page",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "components": [
+        {
+          "id": "58tdaz35l",
+          "type": "mwlButton",
+          "props": {
+            "type": "normal",
+            "text": "About us page",
+            "variant": "contained",
+            "color": "primary",
+            "size": "medium",
+            "disabled": false,
+            "borderRadius": 4,
+            "className": "mwl-button",
+            "textTransform": "none",
+            "loading": false,
+            "loadingPosition": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
