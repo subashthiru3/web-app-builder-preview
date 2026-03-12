@@ -4,16 +4,28 @@ on:
   workflow_dispatch:
     inputs:
       project:
-        required: false
-        type: string
-      token_name:
+        description: "Static Web App name"
         required: true
         type: string
+      token_name:
+        description: "GitHub secret containing deployment token"
+        required: true
+        type: string
+      stage:
+        description: "Deployment stage"
+        required: true
+        type: choice
+        options:
+          - dev
+          - test
+          - uat
+          - prod
 
 jobs:
   build_and_deploy_job:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Deploy ${{ inputs.project }} (${{ inputs.stage }})
+    environment: ${{ inputs.stage }}
     permissions:
       id-token: write
       contents: read
