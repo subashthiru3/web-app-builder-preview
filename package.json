@@ -6,14 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "axios": "^1.13.4",
     "next": "15.5.7",
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "react-loader-spinner": "^8.0.2"
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@emotion/react": "^11.14.0",
@@ -29,6 +31,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "pdfjs-dist": "^5.4.624",
+    "react-loader-spinner": "^8.0.2",
     "react-web-white-label": "^2.0.12",
     "typescript": "^5"
   }

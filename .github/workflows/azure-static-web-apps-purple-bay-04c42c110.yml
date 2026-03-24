@@ -50,7 +50,7 @@ jobs:
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: "20.9.0"
+          node-version: "20"
 
       # 🔐 Azure DevOps Artifacts npm auth (CORRECT)
       - name: Authenticate npm to Azure DevOps Artifacts
