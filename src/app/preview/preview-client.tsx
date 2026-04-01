@@ -9,6 +9,7 @@ import Loader from "@/components/Loader/Loader";
 export default function PreviewClient() {
   const searchParams = useSearchParams();
   const project = searchParams?.get("project");
+  const stage = searchParams?.get("stage");
 
   const [components, setComponents] = useState<CanvasComponent[]>([]);
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,7 @@ export default function PreviewClient() {
   const getAppJSONData = async () => {
     setLoading(true);
     try {
-      const res = await fetchJSONData(project!);
+      const res = await fetchJSONData(project!, stage!);
       if (res.data) {
         const apiData = res.data;
         const flattenedData = apiData.pages.flatMap((page: any) =>
